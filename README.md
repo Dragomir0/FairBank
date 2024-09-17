@@ -5,7 +5,7 @@ FairBank is a transparent web banking application, developed as part of the INM5
 FairBank offers an  interest-free banking service platform.
 The following documentation shows the features, technologies used as well as a guide for local installation.
 
-You can access the website [here](fairbank-a29c3d2b6931.herokuapp.com/)
+You can access the website [here](https://fairbank-a29c3d2b6931.herokuapp.com/)
 
 ## Demo
 https://github.com/user-attachments/assets/437bb85c-3d37-40f7-95c3-e1b43d1d767b
