@@ -18,7 +18,9 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 
 ALLOWED_HOSTS = [
-    '*'
+    'fairbank-a29c3d2b6931.herokuapp.com',
+    'localhost',
+    '127.0.0.1',
 ]
 
 # Application definition

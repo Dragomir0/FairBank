@@ -1,8 +1,11 @@
 # FairBank
 
 FairBank is a transparent web banking application, developed as part of the INM5151 course at UQAM. 
-FairBank offers an innovative and interest-free banking service platform.
+
+FairBank offers an  interest-free banking service platform.
 The following documentation shows the features, technologies used as well as a guide for local installation.
+
+You can access the website [here](fairbank-a29c3d2b6931.herokuapp.com/)
 
 ## Demo
 https://github.com/user-attachments/assets/437bb85c-3d37-40f7-95c3-e1b43d1d767b
@@ -23,8 +26,8 @@ https://github.com/user-attachments/assets/437bb85c-3d37-40f7-95c3-e1b43d1d767b
 - **Authentication**: Secure management of user authentication.
 - **User Account Management**: View and modify user information.
 - **Transactions**: Perform transactions between users.
-- **Transaction History**: Track completed transactions.
-- **Administrator Page**: View overall site activities. Manage user requests.
+- **Transaction History**: Datatable tracking completed transactions.
+- **Administrator Page**: View overall site statistisc and manage user requests.
 - **Custom Emails**: Welcome email, password change email, newsletter email, and account deletion confirmation email.
 
 ## Technologies Used
@@ -44,23 +47,25 @@ https://github.com/user-attachments/assets/437bb85c-3d37-40f7-95c3-e1b43d1d767b
 - [Django](https://www.djangoproject.com/)
 - [Django REST framework](https://www.django-rest-framework.org/)
 
+### Deployment
+
+- [Docker](https://www.docker.com/)
+- [Heroku](https://heroku.com)
+
 ### Database
-- Sqlite3
+- [SQLite3](https://www.sqlite.org/)
   
 ## Installation
 
 ### Prerequisites
 
-- Node.js
-- npm
-- Python
+- Node.js , npm , Python
 
 ### Instructions
 
-
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Alteernative/FairBank.git
+   git clone https://github.com/Dragomir0/FairBank.git
    cd fairbank
    ```
 
@@ -95,7 +100,6 @@ https://github.com/user-attachments/assets/437bb85c-3d37-40f7-95c3-e1b43d1d767b
    python manage.py migrate
    ```
 
-
 5. Start the development servers:
 
 ##### Frontend
@@ -114,8 +118,7 @@ https://github.com/user-attachments/assets/437bb85c-3d37-40f7-95c3-e1b43d1d767b
 
 ## Usage 
 
-1. Open your browser and go to http://localhost:5173 to use the application's user interface.
-2. Use the available features to create an account, perform transactions, modify the site's appearance, etc
+1. Open your browser to http://localhost:5173 to use the application's user interface.
 
 ## Project Structure
 
